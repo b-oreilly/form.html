@@ -1,0 +1,155 @@
+/*_nav_*/
+h1 {
+    font-family: 'Rubik', sans-serif;
+    font-weight: bold;
+    font-size: 40px;
+    letter-spacing: 1px;
+    margin-top: 8px;
+    margin-bottom: 15px;
+    padding-left: 16px;
+}
+
+nav {
+    font-family: 'Rubik', sans-serif;
+    font-size: 15px;
+    text-align: right;
+    position: inherit;
+    text-transform: uppercase;
+    color: #000000;
+    margin-top: 15px;
+}
+
+nav li {
+    display: inline-block;
+    padding: 5px 5px;
+}
+
+a {
+    color: #000000;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #cccccc;
+    text-decoration: none;
+}
+
+/*_body_*/
+body {}
+
+h2 {}
+
+.item {
+    max-height: inherit;
+    max-width: inherit;
+}
+
+
+/*_footer_*/
+footer {
+    background-color: #eee;
+    padding-top: 20px;
+    padding-bottom: 50px;
+}
+
+.rights{
+    float: right;
+}
+
+li{
+    list-style: none;
+}
+
+/*_form_*/
+form {
+    font-family: 'Open Sans', sans-serif;
+}
+
+hr{
+    margin-top: 0px;
+}
+
+.title{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 40px;
+    font-weight: lighter;
+}
+
+.contact{
+    padding-bottom: 10px;
+}
+
+.mybutton {
+    width: 100%;
+    border: .5px solid #000000;
+    font-family: 'Rubik', sans-serif;
+    font-weight: bold;
+    font-size: 16px;
+    text-decoration: none;
+    padding: 10px;
+    cursor: pointer;
+    margin: 10px 20px 20px 0;
+    background-color: #ffffff;
+}
+
+.mybutton:hover {
+    background-color: #000000;
+    color: #ffffff;
+    text-decoration: none;
+}
+
+.mybutton a:visited {
+    background-color: #000000;
+    color: #ffffff;
+    text-decoration: none;
+}
+
+
+input[type=text],
+input[type=email] {
+    border: none;
+    border-bottom: 1px solid #666;
+    box-shadow: none;
+}
+
+
+input[type=text]:focus,
+input[type=email]:focus {
+    border: none;
+    border-bottom: 1px solid black;
+    box-shadow: none;
+    margin: none;
+}
+
+.form-control {
+    border: 0;
+    border: none;
+    border-bottom: 1px solid #666;
+    margin: none;
+}
+
+.form-control:focus {
+    box-shadow: none;
+    border-bottom: 1px solid black;
+}
+
+.mytextarea {
+    height: 75px;
+    border: none;
+    border-bottom: 0 0 1px solid #000000;
+}
+
+.mycheckbox {
+    margin-top: 2px;
+    margin-left: 30px;
+    top: 0;
+    height: 20px;
+    width: 20px;    
+    cursor: pointer;
+    background-color: #eee;
+    align-content: space-around;
+}
+
+label {
+    font-family: 'Rubik', sans-serif;
+}

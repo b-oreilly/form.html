@@ -1,0 +1,189 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <!--styling for the entire site -->
+    <link href="css/style.css" rel="stylesheet">
+    <!--Google Fonts-->
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans|Roboto|Rubik" rel="stylesheet">
+    <!--Tab Icon & Webpage Title-->
+    <link rel="icon" href="#">
+    <title>IMC Group Ireland</title>
+</head>
+
+<body>
+    <div class="container">
+        <div class="row topbottomspace">
+            <div class="col-sm-8 col-lg-6">
+                <h1>IMC</h1>
+            </div>
+            <!--Desktop Nav - greater than 992px-->
+
+            <nav class="navbar navbar-right d-none d-lg-block d-xl-none d-none d-xl-block navbar-lg">
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">What's on</a></li>
+                    <li><a href="#">Coming soon</a></li>
+                    <li><a href="#">Book online</a></li>
+                    <li><a href="form.html" class="active">Contact</a></li>
+                </ul>
+            </nav>
+
+            <!--Mobile Nav - below 992px-->
+            <!--with help from -> https://codepen.io/erikterwan/pen/EVzeRP-->
+            <nav class="navbar justify-content-sm-end d-block d-sm-none d-none d-sm-block d-md-block d-lg-none navbar-light bg-light fixed-bottom">
+                <button class="navbar-toggler" data-toggle="collapse" data-target="#collapse_me">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="collapse_me">
+                    <ul class="navbar-nav">
+                        <li class="nav-item">
+                            <a href="#" class="nav-link">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#" class="nav-link">What's on</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#" class="nav-link">Coming soon</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#" class="nav-link">Book online</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="form.html" class="nav-link active">Contact</a>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+        </div>
+    </div>
+    <!--Closing container-->
+
+    <div class="container">
+        <hr class="row">
+        <div class="col-12">
+            <form>
+                <h2 class="title">Contact</h2>
+                <small class="form-text text-muted contact">Contact us via the form or by phone for any questions. We are always at your disposal.</small>
+                <div class="form-row">
+                    <div class="form-group col-6">
+                        <label>First Name</label>
+                        <input type="text" class="form-control" id="" placeholder="First Name">
+                    </div>
+                    <div class="form-group col-6">
+                        <label>Last Name</label>
+                        <input type="text" class="form-control" id="" placeholder="Last Name">
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label>Email</label>
+                    <input type="email" class="form-control" id="" placeholder="Email" col="12">
+                </div>
+                <div class="form-group">
+                    <label for="inputCinema">Select Cinema</label>
+                    <select id="" class="form-control">
+                        <option selected>Select</option>
+                        <option>...</option>
+                    </select>
+                </div>
+                <div class="form-group">
+                    <label for="inputAddress">Message</label>
+                    <input type="text" class="form-control mytextarea" id="">
+                </div>
+                <div class="form-group">
+                    <small id="gdprHelpBlock" class="form-text text-muted">
+                        By signing up, you agree to the Privacy Policy and you will be receiving our newsletters. You can withdraw your consent by contacting us or by clicking on the “unsubscribe” link at the end of each newsletter.
+                    </small>
+                    <br>
+                    <div class="form-check row col-12">
+                        <label class="form-check-label mycheckboxlabel" for="gridCheck">
+                            I Agree with the GDPR Compliance
+                        </label>
+                        <input class="form-check-input mycheckbox col-sm-6" type="checkbox" id="gridCheck">
+                    </div>
+                </div>
+                <button type="submit" class="mybutton">SEND</button>
+            </form><br><br>
+        </div>
+    </div>
+
+
+    <!--<footer class="section footer-classic context-light">
+        <div class="container row">
+            <div class="col-6">
+                Email <a href="mailto:#">hello@imc.ie</a>
+            </div>
+            <div class="col-6">
+                <a href="tel:#">+01 7568543</a>
+            </div>
+
+            <div class="col-6"><a class="social-inner" href="https://www.facebook.com/imccinemagroup/" target="_blank">Facebook</a></div>
+            <div class="col-6"><a class="social-inner" href="https://www.instagram.com/imccinemas/" target="_blank">Instagram</a></div>
+            <p class="col-12 rights">Irish Multiplex Cinemas <br> © 2018 <br> All Rights Reserved.</p>
+        </div>
+    </footer>-->
+
+
+
+
+
+
+
+
+
+
+    <footer class="container-fluid bg-grey py-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6">
+                    <div class="row">
+                        <div class="col-lg-6 ">
+                            <div class="logo-part">
+                                <h1>IMC</h1>
+                                <ul>
+                                    <li><a href="mailto:#">hello@imc.ie</a></li>
+                                    <li><a href="tel:#">+01 7568543</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="row">
+                        <div class="col-md-6 ">
+                            <h6> Newsletter</h6>
+                            <form class="form-footer my-3">
+                                <input type="text" placeholder="search" name="search">
+                                <input type="button" value="Go">
+                                <div class="col-6"><a class="social-inner" href="https://www.facebook.com/imccinemagroup/" target="_blank">Facebook</a></div>
+                                <div class="col-6"><a class="social-inner" href="https://www.instagram.com/imccinemas/" target="_blank">Instagram</a></div>
+                                <p class="col-12 rights">Irish Multiplex Cinemas <br> © 2018 <br> All Rights Reserved.</p>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+
+
+
+
+
+
+
+
+        <!-- Optional JavaScript -->
+        <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+</body>
+
+</html>
